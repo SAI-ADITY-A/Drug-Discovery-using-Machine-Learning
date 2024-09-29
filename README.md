@@ -1,7 +1,7 @@
-#Title: Drug Discovery Targeting Tyrosine Kinase (EGFR) for Lung Cancer
+# Title: Drug Discovery Targeting Tyrosine Kinase (EGFR) for Lung Cancer
 This project aims to develop novel drug candidates targeting the Epidermal Growth Factor Receptor (EGFR), a key player in the pathogenesis of lung cancer. Utilizing machine learning techniques, we analyze bioactivity data to identify potent inhibitors of EGFR, ultimately accelerating the drug discovery process.
 
-##Objectives:
+## Objectives:
 To predict the inhibitory potency (pIC50) of potential drug candidates against EGFR.
 To analyze molecular descriptors using machine learning models for efficient lead compound identification.
 To validate the predicted results through experimental methods.
