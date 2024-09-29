@@ -5,31 +5,31 @@ This project aims to develop novel drug candidates targeting the Epidermal Growt
 To predict the inhibitory potency (pIC50) of potential drug candidates against EGFR.
 To analyze molecular descriptors using machine learning models for efficient lead compound identification.
 To validate the predicted results through experimental methods.
-Project Workflow
-Target Identification:
+## Project Workflow
+### Target Identification:
 
 Selection of Tyrosine Kinase (EGFR) as the therapeutic target based on its role in lung cancer.
-##Data Collection:
+### Data Collection:
 
 Gathering bioactivity data (IC50/pIC50 values) from sources like ChEMBL.
 Collecting relevant molecular descriptors using tools such as Lipinski and PaDEL.
-##Data Preprocessing:
+### Data Preprocessing:
 
 Cleaning and filtering the data for accuracy.
 Selecting significant features from molecular descriptors.
-##Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 
 Performing visualizations to explore data distributions and correlations.
 Generating hypotheses about structural properties affecting drug activity.
-##Model Development:
+### Model Development:
 
 Implementing machine learning models (e.g., LazyPredict, LazyRegressor) for pIC50 prediction.
 Splitting data into training and validation sets to ensure model robustness.
-##Model Evaluation:
+### Model Evaluation:
 
 Assessing model performance using metrics like RMSE, MAE, or R².
 Analyzing feature importance to guide further drug design.
-##Lead Compound Identification:
+### Lead Compound Identification:
 
 Selecting lead compounds with promising pIC50 values for experimental testing.
 Optimizing chemical structures based on model insights.
